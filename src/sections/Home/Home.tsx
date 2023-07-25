@@ -10,16 +10,16 @@ export const Home = () => {
       <div className={`${s.bg} ${s.bg2}`}></div>
       <div className={`${s.bg} ${s.bg3}`}></div>
       <div className={s.content}>
-        <div className={s.photo} />
         <div className={s.hero}>
+          <div className={s.photo} />
           <h1 className={s.h1}>HI THERE !</h1>
           <p className={s.p}>I'am Andrey Soroko</p>
           <div className={s.hero_actions}>
             <Button>Download CV</Button>
             <a href="#">Learn more</a>
           </div>
-          <ScrollDown />
         </div>
+        <ScrollDown />
       </div>
     </section>
   )
