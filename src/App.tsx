@@ -1,3 +1,9 @@
+import { Home } from '@/sections/Home/Home.tsx'
+
 export function App() {
-  return <div className="App"></div>
+  return (
+    <div>
+      <Home />
+    </div>
+  )
 }

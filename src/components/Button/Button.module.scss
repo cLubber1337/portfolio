@@ -1,0 +1,20 @@
+.button {
+  padding: 0.75rem 1rem;
+
+  color: var(--color-white);
+  letter-spacing: 1.5px;
+
+  background: var(--color-cyan-900);
+  border: none;
+  border-radius: 24px;
+
+  transition: all 0.25s ease;
+
+  &:hover {
+    background: var(--color-cyan-800);
+  }
+
+  &:active {
+    background: var(--color-cyan-950);
+  }
+}

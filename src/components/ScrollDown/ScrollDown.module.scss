@@ -1,0 +1,85 @@
+.scrollDown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: down 2s infinite;
+
+  span {
+    font-size: var(--font-size-xs);
+  }
+}
+
+.mouse {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 26px;
+  height: 46px;
+  margin-top: 300px;
+
+  border: 1px solid var(--color-primary);
+  border-radius: 60px;
+
+  &::before {
+    content: '';
+
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 8px;
+    height: 8px;
+
+    opacity: 1;
+    background-color: #333;
+    border-radius: 50%;
+
+    animation: wheel 2s infinite;
+  }
+}
+
+@keyframes down {
+  0% {
+    transform: translate(0);
+  }
+
+  20% {
+    transform: translateY(15px);
+  }
+
+  40% {
+    transform: translate(0);
+  }
+}
+
+@keyframes down {
+  0% {
+    transform: translate(0);
+  }
+
+  20% {
+    transform: translateY(15px);
+  }
+
+  40% {
+    transform: translate(0);
+  }
+}
+
+@keyframes wheel {
+  to {
+    top: 20px;
+    opacity: 0;
+  }
+}
+
+@keyframes wheel {
+  to {
+    top: 20px;
+    opacity: 0;
+  }
+}
