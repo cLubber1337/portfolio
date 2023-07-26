@@ -1,0 +1,23 @@
+.cardProject {
+  position: relative;
+  display: flex;
+}
+
+.card {
+  will-change: transform, opacity;
+  cursor: pointer;
+
+  width: 400px;
+  max-width: 500px;
+  height: 250px;
+  max-height: 500px;
+}
+
+.front {
+  position: absolute;
+  background-color: red;
+}
+
+.back {
+  background-color: var(--color-bg);
+}

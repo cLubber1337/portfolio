@@ -12,7 +12,7 @@ interface AboutProps {}
 export const About = ({}: AboutProps) => {
   return (
     <section className={s.about}>
-      <div className={s.wrapper}>
+      <div className="wrapper">
         <div className={s.content}>
           <div className={s.photo}></div>
           <div className={s.info}>

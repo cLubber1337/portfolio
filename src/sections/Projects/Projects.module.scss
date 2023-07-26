@@ -1,0 +1,11 @@
+.projects {
+  min-height: 100vh;
+  background-color: var(--color-white);
+}
+
+.content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 3rem 0;
+}
