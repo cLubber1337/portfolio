@@ -1,0 +1,35 @@
+.skills {
+  overflow: hidden;
+  background-color: var(--color-white);
+  border: 1px solid #e8e8e8;
+  box-shadow: 0 10px 70px rgb(0 0 0 / 10%);
+}
+
+.icon {
+  display: block;
+  width: 60px;
+  height: 60px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+
+  width: 135px;
+  margin: 20px 30px 20px 0;
+  padding-right: 30px;
+
+  border-right: 1px solid var(--color-gray-300);
+}
+
+.title {
+  color: var(--color-secondary);
+}
