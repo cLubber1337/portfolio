@@ -17,57 +17,57 @@ interface SkillsProps {}
 
 export const Skills = ({}: SkillsProps) => {
   return (
-    <div className={s.skills}>
-      <ul className={s.row}>
-        <li className={s.skill}>
+    <div className={`${s.skills} ${s.container}`}>
+      <div className={s.row}>
+        <div className={s.skill}>
           <ReactIcon className={s.icon} />
           <p className={s.title}>React</p>
-        </li>
-        <li className={s.skill}>
+        </div>
+        <div className={s.skill}>
           <TypescriptIcon className={s.icon} />
           <p className={s.title}>Typescript</p>
-        </li>
-        <li className={s.skill}>
+        </div>
+        <div className={s.skill}>
           <JS className={s.icon} />
           <p className={s.title}>Javascript</p>
-        </li>
-        <li className={s.skill}>
+        </div>
+        <div className={s.skill}>
           <ReduxIcon className={s.icon} />
           <p className={s.title}>Redux Toolkit</p>
-        </li>
-        <li className={s.skill}>
+        </div>
+        <div className={s.skill}>
           <HTMLIcon className={s.icon} />
           <p className={s.title}>HTML</p>
-        </li>
-        <li className={s.skill}>
+        </div>
+        <div className={s.skill}>
           <CSS className={s.icon} />
           <p className={s.title}>CSS</p>
-        </li>
-        <li className={s.skill}>
+        </div>
+        <div className={s.skill}>
           <SCSS className={s.icon} />
           <p className={s.title}>SCSS</p>
-        </li>
-        <li className={s.skill}>
+        </div>
+        <div className={s.skill}>
           <StorybookIcon className={s.icon} />
           <p className={s.title}>Storybook</p>
-        </li>
-        <li className={s.skill}>
+        </div>
+        <div className={s.skill}>
           <MaterialIcon className={s.icon} />
           <p className={s.title}>Material UI</p>
-        </li>
-        <li className={s.skill}>
+        </div>
+        <div className={s.skill}>
           <Jest className={s.icon} />
           <p className={s.title}>Jest</p>
-        </li>
-        <li className={s.skill}>
+        </div>
+        <div className={s.skill}>
           <Git className={s.icon} />
           <p className={s.title}>Git</p>
-        </li>
-        <li className={s.skill}>
+        </div>
+        <div className={s.skill}>
           <RestAPIIcon className={s.icon} />
           <p className={s.title}>Rest API</p>
-        </li>
-      </ul>
+        </div>
+      </div>
     </div>
   )
 }

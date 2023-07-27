@@ -16,23 +16,29 @@ export const Contacts = ({}: ContactsProps) => {
         <div className={s.content}>
           <div className={s.boxes}>
             <div className={s.box}>
-              <PhoneIcon className={s.icon} />
-              <a className={s.info} href="tel:+375256561690">
-                +375 25 656 16 90
-              </a>
-              <p className={s.text}>Call me</p>
+              <div className={s.box_content}>
+                <PhoneIcon className={s.icon} />
+                <a className={s.info} href="tel:+375256561690">
+                  +375 25 656 16 90
+                </a>
+                <p className={s.text}>Call me</p>
+              </div>
             </div>
             <div className={s.box}>
-              <MailIcon className={s.icon} />
-              <a href="mailto:supersoroko@gmail.com" className={s.info}>
-                supersoroko@gmail.com
-              </a>
-              <p className={s.text}>Mail me</p>
+              <div className={s.box_content}>
+                <MailIcon className={s.icon} />
+                <a href="mailto:supersoroko@gmail.com" className={s.info}>
+                  supersoroko@gmail.com
+                </a>
+                <p className={s.text}>Mail me</p>
+              </div>
             </div>
             <div className={s.box}>
-              <LocationIcon className={s.icon} />
-              <p className={s.info}>Belarus, Minsk</p>
-              <p className={s.text}>Address</p>
+              <div className={s.box_content}>
+                <LocationIcon className={s.icon} />
+                <p className={s.info}>Belarus, Minsk</p>
+                <p className={s.text}>Address</p>
+              </div>
             </div>
           </div>
           <form className={s.form}>

@@ -128,9 +128,17 @@ body {
 
 .container {
   margin-left: 100px;
+
+  @media (max-width: 990px) {
+    margin-left: 0;
+  }
 }
 .wrapper {
-  max-width: 1290px;
+  max-width: 1110px;
   margin: 0 auto;
-  padding: 4.25rem 30px;
+  padding: 4.25rem 2rem;
+
+  @media (max-width: 600px) {
+    padding: 2rem 1rem;
+  }
 }
