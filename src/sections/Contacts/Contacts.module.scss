@@ -1,0 +1,98 @@
+.contacts {
+  min-height: 100vh;
+  background-color: var(--color-bg);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 3rem 0;
+}
+
+.boxes {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.box {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+
+  width: 330px;
+  height: 190px;
+
+  background-color: var(--color-white);
+  border: 1px solid var(--color-border);
+
+  transition: box-shadow 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 10px 70px rgb(0 0 0 / 10%);
+  }
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  fill: red;
+}
+
+.info {
+  font-weight: var(--font-weight-semibold);
+}
+
+.text {
+  font-size: var(--font-size-s);
+  color: var(--color-secondary);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.name {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.input {
+  all: unset;
+
+  padding: 11px 20px;
+
+  font-size: var(--font-size-s);
+  color: var(--color-secondary);
+
+  background-color: var(--color-white);
+  border: 1px solid var(--color-border);
+
+  transition: all 0.3s ease-in-out 0s;
+
+  &:focus {
+    border-color: var(--color-cyan-800);
+    outline: none;
+    box-shadow: 0 0 0 3px rgb(21 94 117 / 20%);
+  }
+}
+
+.inputName {
+  width: 100%;
+}
+
+.submit {
+  text-align: center;
+}
+
+.btn {
+  padding: 11px 50px !important;
+}
